@@ -1,0 +1,39 @@
+@media screen and (max-width:768px) {
+    .nav-container{
+     flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        align-items: center;
+        
+    }
+    .nav-icon{
+        
+        margin: 0 auto;
+        width: 50%
+        
+        }
+        /* nav bar done  */
+    
+}
+@media screen and (max-width:425px) {
+    .nav-container{
+     flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .nav-icon{
+        width: 60%;
+      
+        margin: o auto;
+        
+      
+    }
+    /* nav bar done  */
+    
+}
