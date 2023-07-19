@@ -33,6 +33,28 @@
             grid-template-columns: repeat(2,1fr);
             text-align: center;
         }
+        .games{
+            margin-bottom: 10px;
+        }
+        /* games done  */
+        .play{
+            flex-direction:column-reverse;
+            /* gap: 30px; */
+
+        }
+        .play-img{
+            width: 80%;
+        }
+        .play-content{
+            width: 100%;
+        }
+        .play-img-2{
+            width: 40%;
+        }
+        .play-content{
+            padding-top: 0;
+        }
+       
     
 }
 @media screen and (max-width:425px) {
@@ -69,4 +91,24 @@
         grid-template-columns: 1fr;
         text-align: center;
     }
+    .games{
+        margin-bottom: 10px;
+    }
+    /* games done  */
+    .play{
+        flex-direction:column-reverse;
+    }
+    .play-img{
+        width: 80%;
+    }
+    .play-content{
+        width: 100%;
+    }
+    .play-img-2{
+        width: 40%;
+    }
+    .play-content{
+        padding-top: 0;
+    }
+   
 }
