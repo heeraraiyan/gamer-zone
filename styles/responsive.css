@@ -16,6 +16,18 @@
         
         }
         /* nav bar done  */
+        .banner{
+            flex-direction: column-reverse;
+
+        }
+        .content-container{
+      
+            width: 100%;
+        }
+        .banner-img{
+            width: 100%;
+           
+        }
     
 }
 @media screen and (max-width:425px) {
@@ -35,5 +47,16 @@
       
     }
     /* nav bar done  */
-    
+    /* banner section start  */
+    .banner{
+        flex-direction: column-reverse;
+
+    }
+    .content-container{
+      
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    }
 }
