@@ -133,3 +133,42 @@ body{
   
 
 }
+/* banner section done  */
+
+.games{
+    
+    max-width: 1440px;
+    margin: 50px auto;
+}
+.games-title{
+    text-align: center;
+}
+.games-title h3{
+    color: #0B0223;;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.games-title-spcl{
+    background-image:  linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.games-title p{
+    color:#534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.games-images{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.games-images p{
+    font-weight: 500;
+    color:#534C64;
+    font-size: 1.2rem;
+    line-height: 30px;
+
+}
