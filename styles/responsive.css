@@ -72,16 +72,20 @@
         .footer-p{
             display: grid;
             grid-template-columns: repeat(3,1fr);
-            /* gap: 20px; */
+            gap: 20px;
         }
         .footer-span{
             display: grid;
             grid-template-columns: repeat(3,1fr);
-            /* gap: 30px; */
+            gap: 10px;
         }
         .footer-leg{
             display: grid;
             grid-template-columns: repeat(2,1fr); 
+            gap: 20px;
+        }
+        .footer-container{
+            padding: 0 10px;
         }
        
 
@@ -168,15 +172,20 @@
     .footer-p{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        /* gap: 20px; */
+        gap: 20px;
     }
     .footer-span{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        /* gap: 20px; */
+        gap: 10px;
     }
     .footer-leg{
         display: grid;
         grid-template-columns: repeat(2,1fr); 
+        gap: 20px;
     }
+    .footer-container{
+        padding: 0 10px;
+    }
+   
 }

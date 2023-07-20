@@ -113,6 +113,9 @@ body{
      border: none;
      margin-right: 20px;
 }
+.btn-1:hover{
+    cursor: pointer;
+}
 .btn-2{
     font-size: 1.3rem;
     font-weight: 600;
@@ -121,6 +124,9 @@ body{
     border-radius: 35px;
     border: none;
     background-color: #4EC5F7; 
+}
+.btn-2:hover{
+    cursor: pointer;
 }
 .banner-img{
     width: 50%;
@@ -172,6 +178,39 @@ body{
     line-height: 30px;
 
 }
+#special-img{
+    position: relative;
+    display: inline-block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s;
+}
+.fa-circle-play {
+    font-size: 1.5rem;
+    color: #FFF;
+    margin-bottom: 8px;
+  }
+
+  .watch-later-text{
+    color: #FFF;
+    font-size: 1.2rem;
+  } 
+
+#special-img:hover .overlay {
+    opacity: 1;
+  }
+
 /* games done  */
 .play{
     
@@ -273,7 +312,7 @@ body{
 }
 /* hover done  */
 .footer-container{
-    border: 1px solid red;
+    
     margin-top: 60px;
     background-color: #0B0223;
     text-align: center;
@@ -303,7 +342,7 @@ body{
     padding-right: 10px;
 }
 .footer-p{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .footer-span span{
     padding-right: 15px;
@@ -312,12 +351,12 @@ body{
     cursor: pointer;
 }
 .footer-span{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .footer-leg{
     color: #FFF;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .footer-leg span{
     color: #FFF;
@@ -329,4 +368,3 @@ body{
 .last-p{
     padding-bottom: 50px;
 }
-
