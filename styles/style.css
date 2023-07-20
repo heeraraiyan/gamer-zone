@@ -230,15 +230,15 @@ body{
 }
 /* play done */
 .hoverr{
-    margin-top: 180px;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
+    
     display: flex;
     padding-top: 20px;
     
     /* gap: 32px; */
-    max-width: 1300px;
+    max-width: 1440px;
     flex-wrap: wrap;
     /* flex-basis: 30%; */
     align-items: center;
@@ -259,6 +259,11 @@ body{
     /* width: 60px; */
     /* height: 60px; */
 }
+.hover-img span{
+    color: #0B0223;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
 .hover-img:hover{
     background-image:  linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: transparent;
@@ -266,5 +271,62 @@ body{
     border: 1px solid #F948B2 ;
     cursor: pointer;
 }
+/* hover done  */
+.footer-container{
+    border: 1px solid red;
+    margin-top: 60px;
+    background-color: #0B0223;
+    text-align: center;
+    justify-content: center;
+    width: 100%
+    
+   
+}
+.footer-container h3{
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* padding-bottom: 10px; */
+}
+.footer-title img{
+    width: 80px;
+    height: 40px;
+}
+.footer-p span{
+    color: #FFF;
 
+    padding-right: 10px;
+}
+.footer-p{
+    padding-bottom: 30px;
+}
+.footer-span span{
+    padding-right: 15px;
+}
+.footer-span span:hover{
+    cursor: pointer;
+}
+.footer-span{
+    padding-bottom: 30px;
+}
+
+.footer-leg{
+    color: #FFF;
+    padding-bottom: 30px;
+}
+.footer-leg span{
+    color: #FFF;
+    padding-right: 10px;
+}
+.last-p p{
+    color: #FFF;
+}
+.last-p{
+    padding-bottom: 50px;
+}
 

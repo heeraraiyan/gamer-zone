@@ -57,12 +57,33 @@
         /* play done  */
         .hoverr{
             width: 100%;
+            padding: 0 5%;
             flex-wrap: wrap;
             gap: 5px;
         }
         .hover-img{
             flex-basis: 25%;
         }
+        .hover-img span{
+            font-weight: 80%;
+            font-size: 80%;
+        }
+        /* hover done  */
+        .footer-p{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            /* gap: 20px; */
+        }
+        .footer-span{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            /* gap: 30px; */
+        }
+        .footer-leg{
+            display: grid;
+            grid-template-columns: repeat(2,1fr); 
+        }
+       
 
        
     
@@ -127,8 +148,10 @@
     /* play done  */
     .hoverr{
         width: 100%;
+        padding: 0 5%;
         gap: 0;
         flex-wrap: wrap;
+        margin-top: 0;
     }
     .hover-img{
         flex-basis: 33%;
@@ -137,5 +160,23 @@
         height: 20%;
         width: 20%;
     }
-   
+    .hover-img span{
+        font-weight: 65%;
+        font-size: 65%;
+    }
+    /* hover done  */
+    .footer-p{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        /* gap: 20px; */
+    }
+    .footer-span{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        /* gap: 20px; */
+    }
+    .footer-leg{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+    }
 }
