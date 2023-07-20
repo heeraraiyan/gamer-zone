@@ -54,12 +54,23 @@
         .play-content{
             padding-top: 0;
         }
+        /* play done  */
+        .hoverr{
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        .hover-img{
+            flex-basis: 25%;
+        }
+
        
     
 }
 @media screen and (max-width:425px) {
     .nav-container{
      flex-direction: column;
+     /* padding: 0 5%; */
     }
     .nav-items{
         flex-direction: column;
@@ -77,6 +88,7 @@
     /* banner section start  */
     .banner{
         flex-direction: column-reverse;
+        padding: 0 10%;
 
     }
     .content-container{
@@ -93,10 +105,12 @@
     }
     .games{
         margin-bottom: 10px;
+        padding: 0 10%;
     }
     /* games done  */
     .play{
         flex-direction:column-reverse;
+        padding: 0 5%;
     }
     .play-img{
         width: 80%;
@@ -109,6 +123,19 @@
     }
     .play-content{
         padding-top: 0;
+    }
+    /* play done  */
+    .hoverr{
+        width: 100%;
+        gap: 0;
+        flex-wrap: wrap;
+    }
+    .hover-img{
+        flex-basis: 33%;
+    }
+    .hover-img img{
+        height: 20%;
+        width: 20%;
     }
    
 }
