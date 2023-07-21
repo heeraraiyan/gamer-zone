@@ -191,6 +191,7 @@ body{
     height: 100%;
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -204,7 +205,7 @@ body{
   }
 
   .watch-later-text{
-    color: #FFF;
+    color: #FF42A5;
     font-size: 1.2rem;
   } 
 
